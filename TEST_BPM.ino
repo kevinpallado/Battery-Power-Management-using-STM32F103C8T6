@@ -1,6 +1,6 @@
 #include <OneWireSTM.h>
 
-OneWire  ds(PA0);  // on pin 10 (a 4.7K resistor is necessary) for temperature
+OneWire  ds(PA4);  // on pin 10 (a 4.7K resistor is necessary) for temperature
 
 int const ADCsample = 3;
 int const ADCarraySize = 10;
